@@ -1,3 +1,4 @@
+require('es6-promise').polyfill();
 require("isomorphic-fetch");
 const dotenv = require("dotenv");
 const Koa = require("koa");

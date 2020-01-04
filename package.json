@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "NODE_ENV=production node server.js"
   },
   "repository": {
@@ -29,7 +29,9 @@
     "@shopify/polaris": "^4.10.2",
     "@zeit/next-css": "^1.0.1",
     "apollo-boost": "^0.4.7",
+    "cross-fetch": "^3.0.4",
     "dotenv": "^8.2.0",
+    "es6-promise": "^4.2.8",
     "graphql": "^14.5.8",
     "isomorphic-fetch": "^2.2.1",
     "js-cookie": "^2.2.1",

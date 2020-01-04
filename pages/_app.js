@@ -5,6 +5,7 @@ import { Provider } from "@shopify/app-bridge-react";
 import "@shopify/polaris/styles.css";
 import translations from "@shopify/polaris/locales/en.json";
 import Cookies from "js-cookie";
+import 'cross-fetch/polyfill';
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 
